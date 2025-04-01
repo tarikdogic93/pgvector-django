@@ -1,0 +1,30 @@
+
+# Virtual environment
+venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django secret keys or other sensitive info
+*.env
+*.env.*
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Database files
+postgres/data/
+*.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Miscellaneous
+*.bak
+*.swp
